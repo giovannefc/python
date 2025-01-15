@@ -15,7 +15,19 @@ source .venv/bin/activate
 deactivate
 ```
 
-# Verifica qual ambiente está no momento
+## Verifica qual ambiente está no momento
 ```
 which python3
+```
+
+## Arquivo com dependências
+`requirements.txt`
+```
+pacote==1.0.0
+pacote2==1.2.0
+```
+
+## Instala dependências
+```
+pip install -r requirements.txt
 ```
